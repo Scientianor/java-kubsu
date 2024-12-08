@@ -64,7 +64,6 @@ public class Library {
         }
     }
 
-    // Получение общего количества книг
     public int getBooksCount() {
         return books.size();
     }

@@ -1,7 +1,7 @@
 package task_3;
 
 public class Deanery {
-    private static int idCounter = 0; // Статический счетчик для уникальных ID
+    private static int idCounter = 0;
     private final int uniqueId;
     private String nameFaculty;
     private String room;

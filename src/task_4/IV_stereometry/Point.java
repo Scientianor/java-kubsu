@@ -4,7 +4,6 @@ class Point {
     private double x;
     private double y;
 
-    // Конструкторы
     public Point() {
         this.x = 0;
         this.y = 0;
@@ -15,7 +14,6 @@ class Point {
         this.y = y;
     }
 
-    // Методы
     public double getX() {
         return x;
     }
@@ -34,7 +32,6 @@ class Point {
         return "(" + x + ", " + y + ")";
     }
 
-    // Метод для вычисления площади треугольника
     public static double calculateTriangleArea(Point p1, Point p2, Point p3) {
         return Math.abs(
                 (p1.getX() * (p2.getY() - p3.getY()) +
